@@ -1,0 +1,10 @@
+model_checkpoints/
+__pycache__/
+
+data/__pycache__
+data/UCF-101
+data/UCF-101-frames
+data/UCF101.rar
+data/UCF101TrainTestSplits-RecognitionTask.zip
+data/ucfTrainTestlist
+
