@@ -39,7 +39,7 @@ if __name__ == "__main__":
         # Extract frames
         for j, frame in enumerate(
             tqdm.tqdm(
-                extract_frames(video_path, time_left),
+                extract_frames(video_path),
                 desc=f"[{i}/{len(video_paths)}] {sequence_name} : ETA {time_left}",
             )
         ):
